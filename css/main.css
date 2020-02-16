@@ -1,0 +1,82 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+    background: #ffffff url('../bg.jpg') repeat-x fixed top right;
+}
+a.back {
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+    padding: 5px;
+}
+h1#top {
+    color: #d6411c;
+}
+p.biru {
+    color: #5dbe36;
+}
+
+ul.nav {
+    list-style: none;
+    padding: 0px;
+}
+ul.nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+ul.nav li a:hover {
+    font-weight: bold;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+form#form1 label {
+    display: block;
+    margin-bottom: 10px;
+}
+form#form1 div.form-block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form#form1 input[type="text"] {
+    width: 250px;
+    padding: 10px;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+form#form1 input[type="text"]:focus {
+    border-color: #ff4444;
+    border-width: 5px;
+}
+button {
+    width: 200px;
+    border-width: 0px;
+    border-color: #d6411c;
+    padding: 15px 40px 15px 40px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+}
+button:hover{
+    background-color: #5dbe36;
+    box-shadow: none;
+}
+button:focus {
+    background-color: #d6411c;
+}
+
+div.herobox {
+    background-color: royalblue;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

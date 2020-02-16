@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>Form</h1>
+
+    <a class="back" href="index.html">Kembali ke halaman utama</a>
+
+    <h2>Form sederhana</h2>
+
+    <div class="herobox">
+        <h1>Ini adalah form saya</h1>
+    </div>
+
+    <form id="form1" action="">
+        <div class="form-block">
+            <label for="nama">Nama lengkap</label>
+            <input type="text" placeholder="Masukan nama" id="nama">
+        </div>
+        <div class="form-block">
+            <label for="alamat">Alamat lengkap</label>
+            <input type="text" placeholder="Masukan alamat" id="alamat">
+        </div>
+        <div class="form-block">
+            <label for="jeniskelamin">Jenis kelamin</label>
+            <select name="jeniskelamin" id="jeniskelamin">
+                <option value="p">Pria</option>
+                <option value="w">Wanita</option>
+            </select>
+        </div>
+        <div class="form-block">
+            <label for="pesan">Pesan-pesan</label>
+            <textarea name="" id="pesan" cols="30" rows="10"></textarea>
+        </div>
+        <div class="form-block">
+            <label for="">Jawaban anda</label>
+            <input type="radio" name="answer"> Ya
+            <input type="radio" name="answer"> Tidak
+        </div>
+        <div class="form-block">
+            <label for="">Anda tertarik dengan</label>
+            <input type="checkbox" name="php"> PHP
+            <input type="checkbox" name="js"> Javascript
+            <input type="checkbox" name="java"> Java
+            <input type="checkbox" name="nodejs"> Node JS
+        </div>
+        <div class="form-block">
+            <label for="password">Password</label>
+            <input type="password" name="" id="password">
+        </div>
+        <div class="form-block">
+            <label for="pendidikan">Pendidikan</label>
+            <select name="pendidikan" id="pendidikan" multiple>
+                <option value="sd">Sekolah Dasar</option>
+                <option value="smp">Sekolah Menengah Pertama</option>
+                <option value="sma">Sekolah Menengah Atas</option>
+                <option value="kuliah">Kuliah</option>
+            </select>
+        </div>
+        <div class="form-block">
+            <button>Simpan</button>
+        </div>
+    </form>
+</body>
+</html>
